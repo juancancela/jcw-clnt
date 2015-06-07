@@ -1,0 +1,14 @@
+{
+  "name": "filesearch",
+  "version": "1.0.0",
+  "description": "searches for files",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Carlos Cancela",
+  "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "filesearch": "index.js"
+  }
+}
