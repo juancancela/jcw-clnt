@@ -1,14 +1,17 @@
 {
-  "name": "filesearch",
+  "name": "heyhey",
   "version": "1.0.0",
-  "description": "searches for files",
+  "description": "sends a mail. Usage: 'heyhey <mail@mail.com> <message>' in example: 'heyhey joe@doe.com howdy?'",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Juan Carlos Cancela",
-  "license": "ISC",
+  "license": "MIT",
   "preferGlobal": true,
   "bin": {
-    "filesearch": "index.js"
+    "heyhey": "heyhey.js"
+  },
+  "dependencies": {
+    "nodemailer": "*"
   }
 }
