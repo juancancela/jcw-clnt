@@ -1,7 +1,7 @@
 {
   "name": "heyhey",
   "version": "1.0.0",
-  "description": "sends a mail. Usage: 'heyhey <mail@mail.com> <message>' in example: 'heyhey joe@doe.com howdy?'",
+  "description": "sends a mail. Usage: 'heyhey <mail@mail.com> <subject> <message>'",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
